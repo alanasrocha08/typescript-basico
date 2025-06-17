@@ -10,7 +10,7 @@
     "strict": true,
 
     // Define diretório de saída para os arquivos JS compilados
-    "outDir": "./dist",
+    "outDir": "dist",
 
     // Não gera arquivo JS se houver erros
     "noEmitOnError": true,
