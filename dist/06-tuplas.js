@@ -16,12 +16,12 @@ const produtoC = ["TV", 1000];
 console.log(produtoA);
 console.log(produtoC);
 (0, modulos_1.separador)();
-// Usando tupla no retorno de função
 function verificarOperacao(sucesso) {
     if (sucesso) {
         return [200, "Operação realizada com sucesso!"];
     }
     return [500, "Erro inesperado no servidor"];
 }
-let resultadoDaOperacao = verificarOperacao(true);
-console.log(resultadoDaOperacao);
+// 2) Desestruture o resultadoDaOperacao e mostre somente a mensagem no console
+const [numero, mensagem] = verificarOperacao(true);
+console.log(numero, mensagem);
