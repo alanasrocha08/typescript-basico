@@ -30,3 +30,17 @@ const linguagens: string[][] = [
 
 console.log(linguagens[0][0]);
 console.log(linguagens[1][0]);
+
+separador();
+
+/* Mini-exercício 
+1) Crie um array de números.
+2) Calcule a soma de todos os elementos e guarde numa variável.
+3) Mostre o resultado da soma.*/
+
+const numeros = [1, 2, 3, 4, 5];
+
+var valor = numeros.reduce((acumulador, numero) => {
+  return acumulador + numero;
+}, 0);
+console.log(valor);
