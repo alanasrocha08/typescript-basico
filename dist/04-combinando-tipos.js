@@ -20,3 +20,6 @@ let situacaoAluno3 = "Pendente";
 console.log("Situação 1:" + situacaoAluno1);
 console.log("Situação 2:" + situacaoAluno2);
 console.log("Situação 3:" + situacaoAluno3);
+(0, modulos_1.separador)();
+const diaAtual = "Qua";
+console.log(diaAtual);

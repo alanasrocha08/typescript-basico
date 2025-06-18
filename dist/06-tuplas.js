@@ -23,5 +23,5 @@ function verificarOperacao(sucesso) {
     return [500, "Erro inesperado no servidor"];
 }
 // 2) Desestruture o resultadoDaOperacao e mostre somente a mensagem no console
-const [numero, mensagem] = verificarOperacao(true);
-console.log(numero, mensagem);
+const [, mensagem] = verificarOperacao(true);
+console.log(mensagem);
