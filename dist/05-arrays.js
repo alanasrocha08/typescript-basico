@@ -29,7 +29,7 @@ console.log(linguagens[1][0]);
 2) Calcule a soma de todos os elementos e guarde numa variável.
 3) Mostre o resultado da soma.*/
 const numeros = [1, 2, 3, 4, 5];
-var valor = numeros.reduce((acumulador, numero) => {
+const valor = numeros.reduce((acumulador, numero) => {
     return acumulador + numero;
 }, 0);
 console.log(valor);

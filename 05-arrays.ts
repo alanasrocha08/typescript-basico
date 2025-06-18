@@ -40,7 +40,7 @@ separador();
 
 const numeros = [1, 2, 3, 4, 5];
 
-var valor = numeros.reduce((acumulador, numero) => {
+const valor = numeros.reduce((acumulador, numero) => {
   return acumulador + numero;
 }, 0);
 console.log(valor);
