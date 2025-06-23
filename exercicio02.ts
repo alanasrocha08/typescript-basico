@@ -26,4 +26,5 @@ const produto2: Produto = {
 };
 
 mostrarProduto(produto1);
+console.log("---");
 mostrarProduto(produto2);

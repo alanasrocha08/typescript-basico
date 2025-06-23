@@ -17,4 +17,5 @@ const produto2 = {
     garantia: "1 ano",
 };
 mostrarProduto(produto1);
+console.log("---");
 mostrarProduto(produto2);
